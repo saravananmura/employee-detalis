@@ -1,0 +1,40 @@
+.navbar {
+  height: 70px;
+  width: calc(100% - 290px);    /* FIXED */
+  margin-left: 235px;           /* FIXED */
+  background: #dae7c6;          /* FIXED */
+  border-bottom: 1px solid #eaeaea;
+  padding: 0 25px;
+  position: fixed;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;    /* FIXED alignment */
+  gap: 25px;
+  z-index: 5;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.nav-right i {
+  font-size: 20px;
+  color: #666;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+.nav-right i:hover {
+  color: #007bff;
+  transform: scale(1.1);
+}
+
+.profile-img {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  border: 1px solid #ddd;
+}

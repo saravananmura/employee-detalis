@@ -1,0 +1,7 @@
+.main-content {
+  margin-left: 260px;      /* FIXED */
+  margin-top: 80px;        /* FIXED so content is below navbar */
+  padding: 20px;
+  background: #f8f9fc;     /* slight grey like original */
+  min-height: calc(100vh - 70px);
+}

@@ -1,0 +1,39 @@
+.fade-in { animation: fade .3s ease; }
+@keyframes fade {
+  from { opacity: 0; transform: translateY(10px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.header-row { display:flex; align-items:center; gap:12px; margin-bottom:25px; }
+.header-row i { font-size:22px; cursor:pointer; }
+
+.tab-title {
+  display:flex; align-items:center; gap:8px;
+  padding-bottom:8px; margin-bottom:25px;
+  font-weight:600; border-bottom:2px solid #007bff;
+}
+
+.upload-box {
+  width:90px; height:90px; border:1px solid #ddd; border-radius:50%;
+  display:flex; align-items:center; justify-content:center;
+  background:#fafafa; font-size:30px; color:#555; margin-bottom:25px;
+}
+
+label { font-weight:600; margin-bottom:5px; display:block; }
+
+input, select {
+  width:100%; padding:10px; margin-bottom:20px;
+  border:1px solid #ddd; border-radius:8px;
+}
+
+.bottom-buttons { display:flex; justify-content:flex-end; gap:15px; }
+
+.cancel-btnn {
+  padding:8px 18px; background:#fff; border:1px solid #ddd;
+  border-radius:8px; cursor:pointer;
+}
+
+.confirm-btn {
+  padding:8px 18px; background:#007bff; color:#fff;
+  border:none; border-radius:8px; cursor:pointer;
+}
